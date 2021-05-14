@@ -1,0 +1,133 @@
+body{
+    padding: 0%;
+    margin: 0%;
+}
+.barre{
+    display: flex;
+    justify-content: space-between;
+    margin-right: 5%;
+    margin-left: 5%;
+}
+div ul{
+    list-style-type: none;
+    display: flex;
+    justify-content: space-around;
+}
+li{
+    margin: 7%;
+}
+li a{
+    color: black;
+}
+a{
+    text-decoration: none;
+    color: white;
+}
+#img1{
+    margin-top: 2%;
+}
+#bouton1{
+    margin-top: 1%;
+}
+button{
+    border: 2px solid black;
+    border-radius: 25px;
+    height: 54px;
+    width: 190px;
+    background:linear-gradient(to right, rgb(102, 255, 102),rgb(102, 217, 255)) ;
+}
+header{
+    background-color: ghostwhite;
+    display: flex;
+    justify-content: space-between;
+}
+#img2{
+    width: 37%;
+    z-index: 0;
+    position: absolute;
+    transform: scale(1.8);
+    left: 58%;
+}
+#img3{
+    width: 65%;
+    z-index: 1;
+    position: relative;
+    transform: scale(1.5);
+    left: 35%;
+}
+.texte{
+    text-align: left;
+    margin-left: 10%;
+    margin-top: 10%;
+    margin-bottom: 10%;
+    font-size: 20px;
+}
+main{
+    overflow: hidden;
+}
+.icon{
+    display: flex;
+    justify-content: space-around;
+    margin-top: 8% ;
+}
+.sec1{
+    background-color: gainsboro;
+    padding: 5% 15% 5% 10%;
+    font-size: 20px;
+}
+.ecart{
+    margin-right: 20px;
+}
+.sec2{
+    background-color: ghostwhite;
+    margin-top: 0px;
+}
+.titre{
+    margin-top: 0px;
+    margin-left: 10%;
+    padding-top: 5%;
+    font-size: 40px;
+}
+.align{
+    display: flex;
+    justify-content: space-between;
+    margin-left: 10%;
+    margin-top: 5%;
+    margin-right: 10%;
+    padding-bottom: 5%;
+}
+.image{
+    height: 48%;
+    width: 160%;
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+}
+.box{
+    margin-right: 10%;
+}
+.boxe{
+    border: 2px solid white;
+    background-color: white;
+    width: 149%;
+    margin-top: -3px;
+    padding: 5%;
+}
+footer{
+    background-color: rgb(5, 33, 56);
+    color: white;
+    font-size: 19px;
+    padding: 5%;
+    
+}
+.foot{
+    display: flex;
+    justify-content: space-around;
+
+}
+#min{
+    margin-top: 65%;
+}
+#para{
+    color: gray;
+    margin-top: 23%;
+}
